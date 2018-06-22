@@ -1,0 +1,3 @@
+x_predict = ['待预测URL列表']
+x_predict = vectorizer.transform(x_predict) #注意 不是fit_transform
+res = lgs.predict(x_predict)
